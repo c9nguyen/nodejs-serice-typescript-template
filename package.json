@@ -26,7 +26,8 @@
     "start": "npm run build:live",
     "build": "tsc -p .",
     "build:live": "nodemon --exec ts-node src/server.ts",
-    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+    "test": "mocha -r ts-node/register src/**/*.spec.ts -w --watch-extensions ts",
+    "test-single": "mocha -r ts-node/register src/**/*.spec.ts"
   },
   "author": "Chinh",
   "license": "ISC"
