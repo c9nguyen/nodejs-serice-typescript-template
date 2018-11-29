@@ -1,4 +1,4 @@
-import { Request, Response, Router } from 'express';
+import { Request, Response } from 'express';
 
 export class AppController {
   ping(req: Request, res: Response) {
