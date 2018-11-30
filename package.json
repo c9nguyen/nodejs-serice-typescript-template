@@ -4,7 +4,7 @@
   "description": "A template for expressjs service using Typescript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/c9nguyen/PinHere-Services-AccountService"
+    "url": "https://github.com/c9nguyen/nodejs-serice-typescript-template.git"
   },
   "dependencies": {
     "@types/express": "^4.16.0",
