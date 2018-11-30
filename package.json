@@ -1,8 +1,11 @@
 {
-  "name": "pinhere",
+  "name": "nodejs-service-template",
   "version": "1.0.0",
-  "description": "PinHere project",
-  "main": "index.js",
+  "description": "A template for expressjs service using Typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c9nguyen/PinHere-Services-AccountService"
+  },
   "dependencies": {
     "@types/express": "^4.16.0",
     "body-parser": "^1.18.3",
