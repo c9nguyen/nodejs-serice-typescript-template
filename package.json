@@ -27,7 +27,8 @@
     "build": "tsc -p .",
     "build:live": "nodemon --exec ts-node src/server.ts",
     "test": "mocha -r ts-node/register src/**/*.spec.ts -w --watch-extensions ts",
-    "test-single": "mocha -r ts-node/register src/**/*.spec.ts"
+    "test-single": "mocha -r ts-node/register src/**/*.spec.ts",
+    "lint": "tslint --project tsconfig.json"
   },
   "author": "Chinh",
   "license": "ISC"
