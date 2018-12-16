@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import { AppController } from './app-controller';
+import { AppController } from './app';
 
 /* tslint:disable:no-unused-expression */
 describe('AppController', () => {
